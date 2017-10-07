@@ -7,3 +7,31 @@ body, html{
   line-height:1.8em;
   color:#666;
 }
+
+.food1, .food2, .food3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.food1{
+  background-image:url('../img/image1.jpg'); 
+  min-height:60%;
+  max-width: 100%;
+}
+
+.food2{
+  background-image:url('../img/image2.jpg');
+  min-height:40%;
+  max-width: 100%;
+}
+
+.food3{
+  background-image:url('../img/image3.jpg');
+  min-height:40%;
+  max-width: 100%;
+}
+
