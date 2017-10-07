@@ -35,3 +35,37 @@ body, html{
   max-width: 100%;
 }
 
+.ftext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:1em;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ftext .fborder{
+  background-color:#111;
+  color:#fff;
+}
+
+.ftext .fborder.trans{
+  background-color:transparent;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-primary{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-secondary{
+  background-color:#282e34;
+  color:#ddd;
+}
